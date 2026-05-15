@@ -23,30 +23,6 @@ Car.Client/
   app.js
 ```
 
-## Endpoint-et
-
-| Metoda | URL | Pershkrimi |
-| --- | --- | --- |
-| GET | `/Cars` | Merr te gjitha makinat |
-| GET | `/Cars/{id}` | Merr nje makine sipas ID |
-| POST | `/Cars` | Shton makine |
-| PUT | `/Cars/{id}` | Perditeson makine |
-| DELETE | `/Cars/{id}` | Fshin makine |
-
-## Si ta ekzekutosh
-
-1. Hap terminalin te folderi i projektit.
-2. Nis API-ne:
-
-```bash
-dotnet run --project Car.API
-```
-
-3. Hap Swagger:
-
-```text
-http://localhost:5000/swagger
-```
 
 4. Hap klientin:
 
