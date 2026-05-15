@@ -1,0 +1,23 @@
+@Car.API_HostAddress = http://localhost:5000
+
+GET {{Car.API_HostAddress}}/Cars
+Accept: application/json
+
+###
+
+GET {{Car.API_HostAddress}}/Cars/1
+Accept: application/json
+
+###
+
+POST {{Car.API_HostAddress}}/Cars
+Content-Type: application/json
+
+{
+  "brand": "Volkswagen",
+  "model": "Golf 7",
+  "year": 2018,
+  "color": "Blu",
+  "plateNumber": "AD321GH",
+  "price": 14500
+}

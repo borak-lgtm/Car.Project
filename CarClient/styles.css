@@ -1,0 +1,54 @@
+body {
+    font-family: Arial, sans-serif;
+    background: #f4f7fb;
+    margin: 30px;
+    color: #172033;
+}
+
+h1 {
+    color: #126b57;
+}
+
+form {
+    background: white;
+    padding: 20px;
+    margin-bottom: 25px;
+    border: 1px solid #ddd;
+    max-width: 500px;
+}
+
+input {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+button {
+    padding: 10px 14px;
+    background: #126b57;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+#cancelButton {
+    background: #777;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    background: white;
+}
+
+th,
+td {
+    border: 1px solid #ddd;
+    padding: 10px;
+}
+
+th {
+    background: #126b57;
+    color: white;
+}
